@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class S_GameManager : MonoBehaviour {
 
-    private List<int> colonne1 = new List<int>();
-    private List<int> colonne2 = new List<int>();
-    private List<int> colonne3 = new List<int>();
+    public static S_GameManager Instance { get; private set; }
+
+    public bool[] responseArray;
 
     // Use this for initialization
     void Start ()
     {
-		
+        Instance = this;
 	}
 	
 	// Update is called once per frame
@@ -20,8 +20,28 @@ public class S_GameManager : MonoBehaviour {
 		
 	}
 
-    public void AddANumber(int colonneSet, int ligneSet, int number)
+    public void GoodResponse(int responseIndex)
     {
+        if(responseIndex < responseArray.Length)
+        {
+            responseArray[responseIndex] = true;
+        }
+        else
+        {
+            Debug.Log("ERROR ARRAY TOO LOW");
+        }
         
+    }
+
+    public void BadResponse(int responseIndex)
+    {
+        if (responseIndex < responseArray.Length)
+        {
+            responseArray[responseIndex] = false;
+        }
+        else
+        {
+            Debug.Log("ERROR ARRAY TOO LOW");
+        }
     }
 }
