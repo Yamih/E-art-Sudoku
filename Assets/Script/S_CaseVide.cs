@@ -23,15 +23,17 @@ public class S_CaseVide : MonoBehaviour {
 
     public void SendValue(InputField input)
     {
-        if(Convert.ToInt32(input.text) == response)
+        if(input.text != "")
         {
-            S_GameManager.Instance.GoodResponse(frameNumber);
+            if(Convert.ToInt32(input.text) == response)
+            {
+                S_GameManager.Instance.GoodResponse(frameNumber);
+            }
+            else
+            {
+                S_GameManager.Instance.BadResponse(frameNumber);
+            }
         }
-        else
-        {
-            S_GameManager.Instance.BadResponse(frameNumber);
-        }
-
-        Debug.Log(Convert.ToInt32(input.text));
+        //Debug.Log(Convert.ToInt32(input.text));
     }
 }
