@@ -18,12 +18,13 @@ public class S_MenuPrincipal : MonoBehaviour {
 
 	public void JouerBoutton ()
 	{
-		this.GetComponent<AudioSource> ();
+		OnClick.Play();
 		SceneManager.LoadScene(LevelToLoad);
 	}
 
 	public void QuitterBouton ()
 	{
-		Application.Quit();
+        OnClick.Play();
+        Application.Quit();
 	}
 }

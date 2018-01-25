@@ -11,6 +11,7 @@ public class S_GameManager : MonoBehaviour {
 	private int goodResponse = 0;
 	public GameObject victoryPanel; 
 	public GameObject defeatPanel;
+    public AudioSource clickAudioSource;
 
     // Use this for initialization
     void Start ()
@@ -51,7 +52,8 @@ public class S_GameManager : MonoBehaviour {
 
 	public void CheckVictory ()
 	{
-		goodResponse = 0;
+        clickAudioSource.Play();
+        goodResponse = 0;
 		foreach (bool goodAnswer in responseArray) 
 		{
 			if (goodAnswer) 
@@ -76,6 +78,7 @@ public class S_GameManager : MonoBehaviour {
 
 	public void EraseAll ()
 	{
+        clickAudioSource.Play();
 		SceneManager.LoadScene (SceneManager.GetActiveScene() .name);
 	}
 
