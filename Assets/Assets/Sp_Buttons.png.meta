@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 275c7b8ba9515bb4c9b672377360e3e2
-timeCreated: 1516894902
+timeCreated: 1516895417
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -10,12 +10,12 @@ TextureImporter:
     21300006: Sp_Buttons_Quitter
     21300008: Sp_Buttons_Quitter_Hight
     21300010: Sp_Buttons_Pressed
-    21300012: Sp_Buttons_6
-    21300014: Sp_Buttons_7
+    21300012: Sp_Buttons_Valider
+    21300014: Sp_Buttons_Valider_Hight
     21300016: Sp_Buttons_8
-    21300018: Sp_Buttons_9
-    21300020: Sp_Buttons_10
-    21300022: Sp_Buttons_11
+    21300018: Sp_Buttons_Effacer
+    21300020: Sp_Buttons_Effacer_Hight
+    21300022: Sp_Buttons_Effacer_Press
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -187,7 +187,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sp_Buttons_6
+      name: Sp_Buttons_Valider
       rect:
         serializedVersion: 2
         x: 134
@@ -201,7 +201,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sp_Buttons_7
+      name: Sp_Buttons_Valider_Hight
       rect:
         serializedVersion: 2
         x: 750
@@ -229,7 +229,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sp_Buttons_9
+      name: Sp_Buttons_Effacer
       rect:
         serializedVersion: 2
         x: 134
@@ -243,7 +243,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sp_Buttons_10
+      name: Sp_Buttons_Effacer_Hight
       rect:
         serializedVersion: 2
         x: 748
@@ -257,7 +257,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sp_Buttons_11
+      name: Sp_Buttons_Effacer_Press
       rect:
         serializedVersion: 2
         x: 1364

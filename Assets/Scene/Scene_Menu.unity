@@ -215,6 +215,70 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: QuitterBouton
       objectReference: {fileID: 0}
+    - target: {fileID: 114972144929924504, guid: 14788d89e14d4aa4bafa8cef6b7c321a,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 275c7b8ba9515bb4c9b672377360e3e2,
+        type: 3}
+    - target: {fileID: 114972144929924504, guid: 14788d89e14d4aa4bafa8cef6b7c321a,
+        type: 2}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507051643967826, guid: 14788d89e14d4aa4bafa8cef6b7c321a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114576371546291114, guid: 14788d89e14d4aa4bafa8cef6b7c321a,
+        type: 2}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114576371546291114, guid: 14788d89e14d4aa4bafa8cef6b7c321a,
+        type: 2}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300002, guid: 275c7b8ba9515bb4c9b672377360e3e2,
+        type: 3}
+    - target: {fileID: 114576371546291114, guid: 14788d89e14d4aa4bafa8cef6b7c321a,
+        type: 2}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300004, guid: 275c7b8ba9515bb4c9b672377360e3e2,
+        type: 3}
+    - target: {fileID: 114351686397937660, guid: 14788d89e14d4aa4bafa8cef6b7c321a,
+        type: 2}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983028474497326, guid: 14788d89e14d4aa4bafa8cef6b7c321a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114298006678101846, guid: 14788d89e14d4aa4bafa8cef6b7c321a,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300006, guid: 275c7b8ba9515bb4c9b672377360e3e2,
+        type: 3}
+    - target: {fileID: 114298006678101846, guid: 14788d89e14d4aa4bafa8cef6b7c321a,
+        type: 2}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114351686397937660, guid: 14788d89e14d4aa4bafa8cef6b7c321a,
+        type: 2}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300008, guid: 275c7b8ba9515bb4c9b672377360e3e2,
+        type: 3}
+    - target: {fileID: 114351686397937660, guid: 14788d89e14d4aa4bafa8cef6b7c321a,
+        type: 2}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300010, guid: 275c7b8ba9515bb4c9b672377360e3e2,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 14788d89e14d4aa4bafa8cef6b7c321a, type: 2}
   m_IsPrefabParent: 0
@@ -400,7 +464,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 499a989f7d817f1419195845870a952c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 57acb6a7e029d204da8c6aed3088955d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
