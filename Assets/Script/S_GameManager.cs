@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class S_GameManager : MonoBehaviour {
 
@@ -8,12 +9,13 @@ public class S_GameManager : MonoBehaviour {
 
     public bool[] responseArray;
 	private int goodResponse = 0;
+	public GameObject victoryPanel; 
+	public GameObject defeatPanel;
 
     // Use this for initialization
     void Start ()
     {
         Instance = this;
-		CheckVictory ();
 	}
 	
 	// Update is called once per frame
@@ -60,7 +62,26 @@ public class S_GameManager : MonoBehaviour {
 		}
 		if (goodResponse >= responseArray.Length) 
 		{
+			victoryPanel.SetActive (true);
 			Debug.Log ("Voilà t'as gagné");
 		}
+
+		if (goodResponse < responseArray.Length) 
+		{
+			defeatPanel.SetActive (true);
+			StartCoroutine (GoodByeMyLove ());
+			Debug.Log ("Voilà t'as Panel");
+		}
+	}
+
+	public void EraseAll ()
+	{
+		SceneManager.LoadScene (SceneManager.GetActiveScene() .name);
+	}
+
+	IEnumerator GoodByeMyLove ()
+	{
+		yield return new WaitForSeconds (2);
+		defeatPanel.SetActive (false);
 	}
 }
