@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 275c7b8ba9515bb4c9b672377360e3e2
-timeCreated: 1516895417
+timeCreated: 1516895737
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -9,7 +9,7 @@ TextureImporter:
     21300004: Sp_Buttons_Jouer_Press
     21300006: Sp_Buttons_Quitter
     21300008: Sp_Buttons_Quitter_Hight
-    21300010: Sp_Buttons_Pressed
+    21300010: Sp_Buttons_Quitter_Pressed
     21300012: Sp_Buttons_Valider
     21300014: Sp_Buttons_Valider_Hight
     21300016: Sp_Buttons_8
@@ -173,7 +173,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sp_Buttons_Pressed
+      name: Sp_Buttons_Quitter_Pressed
       rect:
         serializedVersion: 2
         x: 1366

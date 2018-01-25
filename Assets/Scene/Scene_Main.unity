@@ -1230,6 +1230,38 @@ Prefab:
       propertyPath: levelToLoad
       value: Scene_Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 114454876953615246, guid: 7d223c945a20269468930f0135d981a5,
+        type: 2}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114080540931754290, guid: 7d223c945a20269468930f0135d981a5,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300006, guid: 275c7b8ba9515bb4c9b672377360e3e2,
+        type: 3}
+    - target: {fileID: 114080540931754290, guid: 7d223c945a20269468930f0135d981a5,
+        type: 2}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1771863840254568, guid: 7d223c945a20269468930f0135d981a5, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114454876953615246, guid: 7d223c945a20269468930f0135d981a5,
+        type: 2}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300008, guid: 275c7b8ba9515bb4c9b672377360e3e2,
+        type: 3}
+    - target: {fileID: 114454876953615246, guid: 7d223c945a20269468930f0135d981a5,
+        type: 2}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300010, guid: 275c7b8ba9515bb4c9b672377360e3e2,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d223c945a20269468930f0135d981a5, type: 2}
   m_IsPrefabParent: 0
