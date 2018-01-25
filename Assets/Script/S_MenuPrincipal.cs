@@ -6,19 +6,19 @@ using UnityEngine.SceneManagement;
 public class S_MenuPrincipal : MonoBehaviour {
 
 	public string LevelToLoad;
+	public AudioSource OnClick;
 
-	// Use this for initialization
 	void Start () {
 		
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		
 	}
 
 	public void JouerBoutton ()
 	{
+		this.GetComponent<AudioSource> ();
 		SceneManager.LoadScene(LevelToLoad);
 	}
 
